@@ -2,14 +2,13 @@
 This code is to record RGB video from computer webcam and store it as .avi video file
 
 ***************************************************************************************************/
-#include "opencv2/opencv.hpp"
+#include "opencv2/opencv.hpp" 
 #include <iostream>
 
 using namespace std;
 using namespace cv;
 
 int main(){
-
   // Create a VideoCapture object and use camera  to capture the video
   VideoCapture cap(0); 
 
